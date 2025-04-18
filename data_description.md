@@ -1,8 +1,8 @@
-# 📄 Dataset Description
+#  Dataset Description
 
 This project uses data from the [Kaggle NLP Disaster Tweets competition](https://www.kaggle.com/competitions/nlp-getting-started).
 
-## 🗃️ Files Included
+## Files Included
 
 ### `train.csv`
 - 7,613 tweets
@@ -22,13 +22,13 @@ This project uses data from the [Kaggle NLP Disaster Tweets competition](https:/
   - `id`: Matches the test set
   - `target`: Your model’s prediction (0 or 1)
 
-## 🔍 Observations
+##  Observations
 
 - `keyword` and `location` columns contain missing data
 - `text` is short-form and often informal, noisy, or includes hashtags, links, and emojis
 - `target` is moderately imbalanced (~43% are real disaster tweets)
 
-## 📌 Notes
+##  Notes
 
 - Preprocessing focuses on the `text` column
 - The model only uses text input; `keyword` and `location` were not used in modeling
